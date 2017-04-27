@@ -16,16 +16,24 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .content h1{
-    font-family: 'Kaushan Script', cursive;
-    color: #2862bf;
+    font-style:italic;
+    color: #7c7a7a;
     font-size: 50px;
     text-shadow: 4px 4px 5px rgba(0,0,0,0.5);
 }
+
 .content h3{
-    font-family: 'blade runner', fantasy;
-    color: #2862bf;
-    font-size: 40px;
-    text-shadow: 3px 3px 4px rgba(0,0,0,0.5);
+    font-style:italic;
+    color: #7c7a7a;
+    font-size: 50px;
+    text-shadow: 4px 4px 5px rgba(0,0,0,0.5);
+}
+
+.content h5{
+    font-style:italic;
+    color: #7c7a7a;
+    font-size: 20px;
+    text-shadow: 4px 4px 5px rgba(0,0,0,0.5);
 }
 
 .content{
@@ -34,7 +42,7 @@ h1,h2,h3,h4,h5,h6{
 
 .cover{
     position: relative;
-    background: url(../images/HD-Wallpapers-13.jpg);
+    background: url(../images/software-developer-jobs-in-delhi.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -47,7 +55,7 @@ h1,h2,h3,h4,h5,h6{
 
 
 .info{
-    background-color: #052a66;
+    background-color: #6b80a5;
     color: white;
     padding: 20px;
 }
@@ -91,13 +99,13 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .info h2{
-    font-family: 'Signika Negative', sans-serif;
+    font-style:italic;
     text-shadow: 4px 4px 5px rgba(0,0,0,0.5);
     font-size: 50px;
     margin: 20px 0;
     text-align: center;
     text-transform: uppercase;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
 }
 
 .infoContent{
@@ -108,7 +116,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .infoContent .block h3{
-    font-family: 'Signika Negative', sans-serif;
+    font-style:italic;
     font-size: 25px;
     margin: 5px 0 10px 0;
     text-transform: uppercase;
@@ -130,7 +138,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .btn{
-    font-family: 'Signika Negative', sans-serif;
+    font-style:italic;
     padding: 10px 50px;
     border-radius: 30px;
     border: 2px solid #D74932;
@@ -144,7 +152,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .btn-pint{
-    color: blue;
+    color: #9a232f;
 }
 
 .btn:hover{
@@ -181,7 +189,7 @@ footer ul{
 }
 footer ul li{
     display: inline-block;
-    margin-right: 5px;
+    margin-right: 10px;
 }
 footer ul li a{
   color: #666;
@@ -276,10 +284,10 @@ footer ul li a:hover{
     }
 }
 
-@media only screen and (max-width : 0px) 
+@media only screen and (max-width : 320px) 
 {
     .cajas{ margin: 0 auto;
-   width: 200px;}
+     width: 200px;}
     .info{word-break: break-word}
 }
 
